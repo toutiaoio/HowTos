@@ -10,19 +10,19 @@ url: https://toutiao.io/posts/x6cjrnw
 
 2. 创建一个新的目录并把数据同步过去
 
-```
-mkdir /srv/docker
-rsync -aqxP /var/lib/docker/ /srv/docker
-```
+    ```
+    mkdir /srv/docker
+    rsync -aqxP /var/lib/docker/ /srv/docker
+    ```
 
-如果是新安装就不需要移数据了
+    如果是新安装就不需要移数据了
 
 3. 修改配置文件 `/etc/docker/daemon.json`, 把数据目录添加进去
 
-```
-{
-  "data-root": "/srv/docker"
-}
-```
+    ```
+    {
+      "data-root": "/srv/docker"
+    }
+    ```
 
 4. 启动系统 `systemctl start docker`.
