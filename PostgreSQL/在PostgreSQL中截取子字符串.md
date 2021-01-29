@@ -1,5 +1,6 @@
 ---
 title: 在 PostgreSQL 中截取子字符串
+url: https://toutiao.io/posts/eov94gx
 ---
 
 1. 截取子串的函数, substring `SUBSTRING(string, start_position, length)`

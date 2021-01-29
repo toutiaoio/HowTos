@@ -1,5 +1,6 @@
 ---
 title: 在PostgreSQL中正确的使用BETWEEN
+url: https://toutiao.io/posts/2rum3hb
 ---
 
 在 PostgreSQL 中用 `BETWEEN` 查询时间撮(timestamp)　可要小心了，搞不好漏掉一整天的数据
