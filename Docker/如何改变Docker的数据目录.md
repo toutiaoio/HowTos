@@ -1,6 +1,6 @@
 ---
 title: 如何改变Docker的数据目录
-url: https://toutiao.io/posts/i9q3h6k
+url: https://toutiao.io/posts/etee1wd
 ---
 
 在 Linux 系统中 Docker 默认的数据目录为 `/var/lib/docker`, 如果系统磁盘空间
