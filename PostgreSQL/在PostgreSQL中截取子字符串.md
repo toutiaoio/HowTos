@@ -3,7 +3,7 @@ title: 在 PostgreSQL 中截取子字符串
 url: https://toutiao.io/posts/eov94gx
 ---
 
-1. 截取子串的函数, substring `SUBSTRING(string, start_position, length)`
+## 截取子串的函数, substring `SUBSTRING(string, start_position, length)`
 
 函数包含三个参数：
 
@@ -30,7 +30,7 @@ postgres=# SELECT SUBSTRING ('PostgreSQL', 8);
 但有时候开始位置并不是固定的，比如我们需要提取出 Email 中的域名，这时我们需要用
 到另一个函数 position 来定位出开始位置在哪里
 
-2. position `POSITION(substring in string)`
+## 定位 position `POSITION(substring in string)`
 
 例子:
 
