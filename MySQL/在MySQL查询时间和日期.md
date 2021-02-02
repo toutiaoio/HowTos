@@ -1,5 +1,6 @@
 ---
 title: 在 MySQL 中查询时间和日期
+url: https://toutiao.io/posts/i71sj4o
 ---
 
 MySQL 具有以下函数来获取当前日期和时间：

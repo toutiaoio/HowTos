@@ -1,5 +1,6 @@
 ---
 title: 在MySQL查询中转换UTC时区为本地时区
+url: https://toutiao.io/posts/5boznpo
 ---
 
 在 MySQL 的timestamp时间戳中不能存储时区数据，需要查询端来转换成想要的时区.
