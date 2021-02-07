@@ -1,5 +1,6 @@
 ---
 title: 用 Pandas 根据数据指标给数据分桶
+url: https://toutiao.io/posts/9f3gljk
 ---
 
 在数据分析需求中，通常需要看数据的分布，比如我们想根据用户维表上的成长值来给用户划分级别
