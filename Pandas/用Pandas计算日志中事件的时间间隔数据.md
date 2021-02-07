@@ -39,23 +39,6 @@ df['event_time'] =  pd.to_datetime(df['event_time'])
 df.head()
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -98,8 +81,6 @@ df.head()
     </tr>
   </tbody>
 </table>
-</div>
-
 
 
 我们希望提取出每个用户的启动次数（`lifetime_launchs`）、昨日启动次数(`yesterday_launchs`) 以及距离上次登录的天数 (`days_since_last_launch`)。
@@ -180,23 +161,6 @@ user_launchs = user_launchs.fillna(0).to_frame()
 user_launchs.head()
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -234,8 +198,6 @@ user_launchs.head()
     </tr>
   </tbody>
 </table>
-</div>
-
 
 
 通过`shift`方法向下移动一行作为下一行的前一天，给 user_launchs 增加 `launchs_yesterday` 字段
@@ -246,23 +208,6 @@ user_launchs['launchs_yesterday'] = user_launchs.groupby(level='user_id')['launc
 user_launchs.head()
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -307,9 +252,6 @@ user_launchs.head()
     </tr>
   </tbody>
 </table>
-</div>
-
-
 
 滚动的累计出当前日期下每个用户的总启动次数，给 user_launchs 增加 `lifetime_launchs` 字段．
 
@@ -322,23 +264,6 @@ user_launchs['lifetime_launchs'] = (user_launchs
 user_launchs.head()
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -390,9 +315,6 @@ user_launchs.head()
     </tr>
   </tbody>
 </table>
-</div>
-
-
 
 
 ```python
@@ -450,23 +372,6 @@ user_launchs['days_since_last_launch'] = (user_launchs
 user_launchs.head()
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -525,9 +430,6 @@ user_launchs.head()
     </tr>
   </tbody>
 </table>
-</div>
-
-
 
 类似的，我们还可以滚动的创建 `launchs_last_n_days`
 
@@ -548,23 +450,6 @@ for n in [7, 14]:
 user_launchs.fillna(0).applymap(int)
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -864,8 +749,6 @@ user_launchs.fillna(0).applymap(int)
     </tr>
   </tbody>
 </table>
-</div>
-
 
 
 是不是很神奇
