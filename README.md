@@ -14,3 +14,4 @@
 - [在 PostgreSQL 中截取子字符串](https://toutiao.io/posts/eov94gx)
 - [Docker容器日志滚动存储Logrotate](https://toutiao.io/posts/aho8gq2)
 - [如何改变 Docker 的数据目录](https://toutiao.io/posts/etee1wd)
+- [删除 HDFS 过期数据](https://toutiao.io/posts/hou04k8)
