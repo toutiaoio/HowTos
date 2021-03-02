@@ -1,3 +1,7 @@
+---
+title: 用 Pandas 做用户留存分析
+---
+
 ```python
 %matplotlib inline
 import matplotlib 
@@ -901,3 +905,5 @@ sns.heatmap(user_retention.T, mask=user_retention.T.isnull(), annot=True, cmap="
 ```
 
 ![file](https://img.toutiao.io/attachment/cda6df9b949d4e2ca816e0a1cc3ae3b4/w600)
+
+> HowTos 项目 Github 地址： https://github.com/toutiaoio/HowTos

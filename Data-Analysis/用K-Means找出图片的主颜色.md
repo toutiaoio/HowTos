@@ -1,5 +1,5 @@
 ---
-title: 用K-Means找出图片的主颜色
+title: 用 K-Means 找出图片的主颜色
 ---
 
 ### 逻辑
@@ -215,3 +215,5 @@ df.head()
   </tbody>
 </table>
 </div>
+
+> HowTos 项目 Github 地址： https://github.com/toutiaoio/HowTos
