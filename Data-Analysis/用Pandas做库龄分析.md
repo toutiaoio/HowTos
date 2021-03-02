@@ -1,5 +1,6 @@
 ---
 title: 用 Pandas 做库龄分析
+url: https://toutiao.io/posts/bmezku6
 ---
 
 ### 库龄分析

@@ -6,6 +6,7 @@
 
 ## Links
 
+- [用 Pandas 做库龄分析](https://toutiao.io/posts/bmezku6)
 - [数据分析之标签可视化](https://toutiao.io/posts/cyvbdog)
 - [用 Pandas 做用户留存分析](https://toutiao.io/posts/13jbibt)
 - [用 K-Means 找出图片的主颜色](https://toutiao.io/posts/gkz574j)
