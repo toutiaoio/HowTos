@@ -1,5 +1,5 @@
 ---
-title: Python: 用 NumPy 做 FizzBuzz
+title: "Python: 用 NumPy 做 FizzBuzz"
 ---
 
 
