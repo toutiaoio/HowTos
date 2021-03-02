@@ -6,6 +6,7 @@
 
 ## Links
 
+- [数据分析之标签可视化](https://toutiao.io/posts/cyvbdog)
 - [用 Pandas 做用户留存分析](https://toutiao.io/posts/13jbibt)
 - [用 K-Means 找出图片的主颜色](https://toutiao.io/posts/gkz574j)
 - [用 Pandas 根据数据指标给数据分桶](https://toutiao.io/posts/9f3gljk)
