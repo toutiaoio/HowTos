@@ -1,5 +1,6 @@
 ---
-title: "Python: 怎样在列表推导式中处理if-elif-else"
+title: Python: 怎样在列表推导式中处理if-elif-else
+url: https://toutiao.io/posts/bhb7wnu
 ---
 
 在列表推导式中用 `if-else` 很简单
