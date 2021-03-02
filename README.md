@@ -6,6 +6,7 @@
 
 ## Links
 
+- [Python: 用 NumPy 做 FizzBuzz](https://toutiao.io/posts/kp2tgry)
 - [Python: 怎样在列表推导式中处理if-elif-else](https://toutiao.io/posts/bhb7wnu)
 - [用 Pandas 做库龄分析](https://toutiao.io/posts/bmezku6)
 - [数据分析之标签可视化](https://toutiao.io/posts/cyvbdog)

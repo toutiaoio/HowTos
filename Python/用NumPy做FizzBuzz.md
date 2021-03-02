@@ -1,7 +1,7 @@
 ---
 title: "Python: 用 NumPy 做 FizzBuzz"
+url: https://toutiao.io/posts/kp2tgry
 ---
-
 
 写一个程序，输出从 1 到 n 数字的字符串表示。
 
