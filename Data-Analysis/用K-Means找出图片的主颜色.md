@@ -1,5 +1,6 @@
 ---
 title: 用 K-Means 找出图片的主颜色
+url: https://toutiao.io/posts/gkz574j
 ---
 
 ### 逻辑
