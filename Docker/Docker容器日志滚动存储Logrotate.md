@@ -1,5 +1,5 @@
 ---
-title: ＂Docker 容器日志滚动存储Logrotate＂
+title: "Docker 容器日志滚动存储Logrotate"
 url: https://toutiao.io/posts/aho8gq2
 ---
 
