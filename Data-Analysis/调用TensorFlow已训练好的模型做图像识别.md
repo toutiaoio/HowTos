@@ -1,7 +1,7 @@
 ---
 title: "调用 TensorFlow 已训练好的模型做图像识别"
+url: https://toutiao.io/posts/sz9xm72
 ---
-
 
 ```python
 # !pip install tensorflow

@@ -9,6 +9,7 @@
 
 ### Data-Analysis
 
+- [调用 TensorFlow 已训练好的模型做图像识别](https://toutiao.io/posts/sz9xm72)
 - [用 Pandas 做库龄分析](https://toutiao.io/posts/bmezku6)
 - [数据分析之标签可视化](https://toutiao.io/posts/cyvbdog)
 - [用 Pandas 做用户留存分析](https://toutiao.io/posts/13jbibt)
