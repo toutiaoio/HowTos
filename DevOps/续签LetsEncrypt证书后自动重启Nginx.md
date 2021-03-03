@@ -1,5 +1,6 @@
 ---
 title: "Let’s Encrypt: 如何通过 Certbot 更新证书后自动重启 Nginx"
+url: https://toutiao.io/posts/5tqmrrc
 ---
 
 Let's Encrypt 证书的有效期只有90天，所以每三个月需要续签一次，通常我们会设置一个 cronjob 来自动的完成，　但续签后需要重启 Web 服务 (比如Nginx), 不然证书过期后一直用的都是原来那个证书．

@@ -6,6 +6,7 @@
 
 ## Links
 
+- [Let’s Encrypt: 如何通过 Certbot 更新证书后自动重启 Nginx](https://toutiao.io/posts/5tqmrrc)
 - [Python: 用 NumPy 做 FizzBuzz](https://toutiao.io/posts/kp2tgry)
 - [Python: 怎样在列表推导式中处理if-elif-else](https://toutiao.io/posts/bhb7wnu)
 - [用 Pandas 做库龄分析](https://toutiao.io/posts/bmezku6)
