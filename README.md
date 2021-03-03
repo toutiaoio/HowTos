@@ -34,7 +34,7 @@
 
 ### Docker
 
-- [＂Docker 容器日志滚动存储Logrotate＂](https://toutiao.io/posts/aho8gq2)
+- [Docker 容器日志滚动存储Logrotate](https://toutiao.io/posts/aho8gq2)
 - [如何改变 Docker 的数据目录](https://toutiao.io/posts/etee1wd)
 
 ### DevOps
