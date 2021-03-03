@@ -1,5 +1,5 @@
 ---
-title: Docker容器日志滚动存储Logrotate
+title: ＂Docker 容器日志滚动存储Logrotate＂
 url: https://toutiao.io/posts/aho8gq2
 ---
 
@@ -24,3 +24,6 @@ $ systemctl daemon-reload
 
 $ systemctl restart docker
 ```
+
+
+> HowTos 项目 Github 地址： https://github.com/toutiaoio/HowTos

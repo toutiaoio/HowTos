@@ -18,3 +18,6 @@ deploy-hook = systemctl reload nginx
 ```
 
 这样每次成功续签后就可以自动重启Nginx，　使其加载最新的证书保证应用正常服务啦．
+
+
+> HowTos 项目 Github 地址： https://github.com/toutiaoio/HowTos

@@ -1,5 +1,5 @@
 ---
-title: 在MySQL查询中转换UTC时区为本地时区
+title: "在 MySQL 查询中转换 UTC 时区为本地时区"
 url: https://toutiao.io/posts/5boznpo
 ---
 
@@ -27,3 +27,5 @@ MariaDB [airflow]> SELECT CONVERT_TZ('2021-02-02 16:00:00','+00:00','+08:00');
 +-----------------------------------------------------+
 1 row in set (0.001 sec)
 ```
+
+> HowTos 项目 Github 地址： https://github.com/toutiaoio/HowTos

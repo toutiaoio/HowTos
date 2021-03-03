@@ -83,3 +83,5 @@ FROM task_instance;
 -- 计算间隔天数
 SELECT DATEDIFF("2021-02-01", "2020-06-30");
 ```
+
+> HowTos 项目 Github 地址： https://github.com/toutiaoio/HowTos
