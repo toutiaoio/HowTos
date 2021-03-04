@@ -1,7 +1,7 @@
 ---
 title: "PySpark: 用 Word2Vec 计算文本相似度"
+url: https://toutiao.io/posts/cfpu4ts
 ---
-
 
 在这个示例中我们来介绍在 PySpark 中如何通过 Word2Vec (词向量模型) 来计算文本的相似度
 

@@ -9,6 +9,7 @@
 
 ### Data-Analysis
 
+- [PySpark: 用 Word2Vec 计算文本相似度](https://toutiao.io/posts/cfpu4ts)
 - [调用 TensorFlow 已训练好的模型做图像识别](https://toutiao.io/posts/sz9xm72)
 - [用 Pandas 做库龄分析](https://toutiao.io/posts/bmezku6)
 - [数据分析之标签可视化](https://toutiao.io/posts/cyvbdog)
